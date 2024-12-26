@@ -11,7 +11,7 @@ import styles from './Profile.module.scss';
 export default function Profile() {
   const { user, setUser } = useContext(UserContext);
   const router = useRouter();
-  const [cookies, setCookie, removeCookie] = useCookies(['user_token']);
+  const [, , removeCookie] = useCookies(['user_token']);
 
   if (!user) router.push('/');
 
