@@ -1,0 +1,44 @@
+.header {
+  background-color: var(--color-purple-900);
+
+  nav {
+    padding-block: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      color: var(--color-white-0);
+      font-size: 1.25rem;
+
+      .highlight {
+        color: var(--color-cyan-400);
+        font-weight: 700;
+      }
+    }
+
+    .links {
+      margin-left: auto;
+      display: flex;
+      gap: 1.5rem;
+
+      .item {
+        .link {
+          color: var(--color-white-0);
+          transition: 0.3s;
+          cursor: pointer;
+
+          @media (hover: hover) {
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+
+          &.highlighted {
+            color: var(--color-cyan-400);
+          }
+        }
+      }
+    }
+  }
+}

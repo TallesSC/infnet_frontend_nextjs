@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  gap: 1rem;
+  border-top: 1px solid var(--color-gray-600);
+
+  .title {
+    color: var(--color-cyan-400);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    .textarea {
+      padding: .5rem;
+      background-color: var(--color-black-700);
+      border-radius: 4px;
+    }
+
+    .button {
+      padding: .75rem;
+      background-color: var(--color-cyan-400);
+      color: var(--color-black-900);
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-align: center;
+      transition: .3s;
+      margin-top: .5rem;
+      width: fit-content;
+      margin-left: auto;
+
+
+      &:hover {
+        background-color: var(--color-cyan-500);
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  padding-block: 2rem;
+
+  .card {
+    border-radius: 4px;
+    background-color: var(--color-black-800);
+    padding: 2rem;
+  }
+
+  .signOutButton {
+    font-weight: 700;
+    color: var(--color-white-0);
+    background-color: var(--color-pink-500);
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,24 @@
+.post {
+  .title {
+    font-weight: 700;
+    font-size: 2.125rem;
+    }
+
+  .date {
+    font-size: .75rem;
+    color: var(--color-gray-500);
+    padding-top: .25rem;
+    margin-left: auto;
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    font-weight: 600;
+  }
+
+  .text {
+    padding-top: 2rem;
+    color: var(--color-gray-100);
+  }
+}
